@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "293670700376",
+    "project_id": "serviciostecnicosjb",
+    "storage_bucket": "serviciostecnicosjb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293670700376:android:02840af9b0b232ce38112d",
+        "android_client_info": {
+          "package_name": "com.example.registroserviciostecnicos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwZiD2apxnUkDuGftOpYCkL6_3U_A_PC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

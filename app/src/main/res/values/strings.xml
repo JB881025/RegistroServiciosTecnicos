@@ -1,0 +1,91 @@
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">RegistroServiciosTecnicos</string>
+
+    <!-- Login -->
+    <string name="titulo_login">Registro de Servicios</string>
+    <string name="subtitulo_login">Inicia sesión para continuar</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="error_campos_vacios">Completa todos los campos</string>
+    <string name="error_email_invalido">Ingresa un correo válido</string>
+    <string name="error_credenciales">Credenciales incorrectas</string>
+    <string name="bienvenido">Bienvenido</string>
+
+    <!-- Panel Principal -->
+    <string name="titulo_panel">Panel Principal</string>
+    <string name="subtitulo_panel">Selecciona una opción</string>
+    <string name="btn_clientes">Clientes</string>
+    <string name="btn_nuevo_servicio">Nuevo Servicio</string>
+    <string name="btn_historial">Historial</string>
+    <string name="btn_cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- Clientes -->
+    <string name="titulo_clientes">Clientes</string>
+    <string name="btn_seleccionar_cliente">Seleccionar Cliente</string>
+    <string name="ningun_cliente_seleccionado">Ningún cliente seleccionado</string>
+    <string name="cliente_seleccionado">✓ %1$s - %2$s</string>
+    <string name="btn_agregar_cliente">Agregar Cliente</string>
+    <string name="dialog_titulo_cliente">Nuevo Cliente</string>
+    <string name="cliente_nombre_hint">Nombre del cliente</string>
+    <string name="cliente_direccion_hint">Dirección</string>
+    <string name="cliente_telefono_hint">Teléfono</string>
+    <string name="cliente_email_hint">Correo electrónico</string>
+    <string name="cliente_nombre_obligatorio">El nombre es obligatorio</string>
+    <string name="cliente_agregado">Cliente agregado</string>
+    <string name="cliente_error_guardar">Error al guardar</string>
+    <string name="cliente_error_cargar">Error al cargar clientes</string>
+
+    <!-- Nuevo Servicio -->
+    <string name="titulo_nuevo_servicio">Nuevo Servicio</string>
+    <string name="tipo_servicio_label">Tipo de Servicio</string>
+    <string name="descripcion_hint">Descripción de las actividades</string>
+    <string name="fotos_label">Fotos (opcional)</string>
+    <string name="btn_tomar_foto">Tomar Foto</string>
+    <string name="btn_adjuntar_foto">Adjuntar Foto</string>
+    <string name="fotos_adjuntas">%d fotos adjuntas</string>
+    <string name="btn_guardar_enviar">Guardar y Enviar</string>
+    <string name="error_cliente_obligatorio">Selecciona un cliente</string>
+    <string name="error_descripcion_obligatoria">Ingresa la descripción de las actividades</string>
+    <string name="servicio_guardado">Servicio guardado correctamente</string>
+    <string name="servicio_error_guardar">Error al guardar</string>
+    <string name="error_camara">No se puede abrir la cámara</string>
+
+    <!-- PDF y Correo -->
+    <string name="pdf_generado">PDF generado</string>
+    <string name="pdf_error">Error al generar PDF</string>
+    <string name="correo_enviado">Correo enviado</string>
+    <string name="correo_error">Error al enviar correo</string>
+    <string name="pdf_titulo">REPORTE DE SERVICIO TECNICO</string>
+    <string name="pdf_empresa">JB INGENIERIA</string>
+    <string name="pdf_cliente">CLIENTE:</string>
+    <string name="pdf_direccion">DIRECCION:</string>
+    <string name="pdf_tipo_servicio">TIPO DE SERVICIO:</string>
+    <string name="pdf_descripcion">DESCRIPCION:</string>
+    <string name="pdf_fecha">FECHA:</string>
+    <string name="pdf_fotos">FOTOS ADJUNTAS:</string>
+    <string name="pdf_sin_fotos">No se adjuntaron fotos.</string>
+    <string name="pdf_footer">JB INGENIERIA - Comprometidos con la calidad</string>
+    <string name="pdf_contacto">Teléfono: (123) 456-7890 | Email: proyectos@jbingenieria.com.co</string>
+
+    <!-- Historial -->
+    <string name="titulo_historial">Historial de Servicios</string>
+    <string name="historial_error">Error al cargar historial</string>
+
+    <!-- Mensajes de error generales -->
+    <string name="error_general">Ha ocurrido un error</string>
+    <string name="exito">Operación exitosa</string>
+
+    <!-- Tipos de Servicio (para el Spinner) -->
+    <string-array name="tipos_servicio">
+        <item>Servicio Técnico</item>
+        <item>Mantenimiento</item>
+        <item>Obra en Ejecución</item>
+        <item>Otro</item>
+    </string-array>
+
+    <!-- Credenciales (para demostración) -->
+    <string name="usuario_demo">proyectos@jbingenieria.com.co</string>
+    <string name="clave_demo">12345</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nuevo Servicio"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Seleccionar Cliente -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cliente"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDark"
+            android:layout_marginBottom="4dp"/>
+
+        <Button
+            android:id="@+id/btnSeleccionarCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Cliente"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/primary"/>
+
+        <TextView
+            android:id="@+id/tvClienteSeleccionado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ningún cliente seleccionado"
+            android:textColor="@color/gray"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Tipo de Servicio -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Servicio"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDark"
+            android:layout_marginBottom="4dp"/>
+
+        <Spinner
+            android:id="@+id/spTipoServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Descripción de Actividades (NUEVO) -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Descripción de las actividades"
+                android:inputType="textMultiLine"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Fotos -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fotos (opcional)"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDark"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnTomarFoto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="📸 Tomar Foto"
+                android:layout_marginEnd="8dp"
+                android:textSize="12sp"
+                android:backgroundTint="@color/accent"/>
+
+            <Button
+                android:id="@+id/btnAdjuntarFoto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🖼 Adjuntar Foto"
+                android:textSize="12sp"
+                android:backgroundTint="@color/accent"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvCantidadFotos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 fotos adjuntas"
+            android:textColor="@color/gray"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Botón Guardar -->
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📤 Guardar y Enviar"
+            android:textSize="18sp"
+            android:backgroundTint="@color/primary"/>
+
+    </LinearLayout>
+
+</ScrollView>
